@@ -1,0 +1,189 @@
+* {
+    padding    : 0;
+    margin     : 0;
+    font-family: sans-serif;
+}
+
+.main-body {
+    overflow: hidden;
+}
+
+.top-line {
+    width           : 100%;
+    background-color: rgb(235, 235, 235);
+    margin-top      : 50px;
+    height          : 50px;
+    line-height     : 50px;
+}
+
+.info {
+    margin-top   : 5px;
+    margin-bottom: -10px;
+    color        : rgb(177, 177, 177);
+    font-size    : 15px;
+}
+
+.line {
+    margin-left: 50px;
+}
+
+.slider {
+    margin-bottom: 10px;
+}
+
+.slide-img {
+    height: 525px;
+    width : 100%;
+}
+
+.text-dark {
+    opacity: 0.7;
+}
+
+.unline {
+    height: 50px;
+    width : 200px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.tab {
+    color       : lightslategrey;
+    padding     : 5px 15px 3px 15px;
+    opacity     : 0.7;
+    border-color: gray;
+}
+
+.tab:hover {
+    text-decoration: none;
+    color          : black;
+    background     : rgb(209, 209, 209);
+}
+
+#newsmail {
+    border          : none;
+    background-color: rgb(88, 88, 88);
+    color           : white;
+    border-bottom   : 2px solid white;
+}
+
+#newsmail:focus {
+    border: white;
+}
+
+.row {
+    display      : -ms-flexbox;
+    display      : flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap    : wrap;
+    padding      : 0 4px;
+}
+
+.column {
+    -ms-flex : 25%;
+    flex     : 25%;
+    max-width: 25%;
+    padding  : 0 4px;
+}
+
+.column img {
+    margin-top    : 8px;
+    vertical-align: middle;
+    width         : 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex : 50%;
+        flex     : 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex : 100%;
+        flex     : 100%;
+        max-width: 100%;
+    }
+}
+
+.figcap,
+figure {
+    height: 150px;
+    width : 150px;
+}
+
+.rating {
+    height: 60px;
+    width : 70px;
+}
+
+.service {
+    background-color: rgb(224, 224, 224);
+    height          : 80px;
+    line-height     : 80px;
+    padding         : 0px 20px 0px 20px;
+}
+
+.serimg {
+    width : 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.payment {
+    background-color: white;
+}
+
+.payimg {
+    padding: 3px;
+    height : 30px;
+    width  : 40px;
+    border : 1px solid gray;
+    margin : 3px;
+}
+
+.payimg:hover {
+    cursor: pointer;
+}
+
+.serp {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
+    .serp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .service {
+        height  : 100px;
+        overflow: hidden;
+        padding : 0px;
+    }
+}
+.conimg{
+    border : none;
+    width: 30px;
+}
+
+
+.top-img{
+    opacity: 0.3;
+    display: block;
+}
+.top{
+    background-color: gray;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+.top-img:hover{
+    opacity: 1;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: rgb(196, 196, 196);
+    text-decoration: none;
+    color: #555;
+  }
+  .members{
+      margin: 20px;
+      justify-content: space-around;
+  }
