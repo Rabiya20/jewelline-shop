@@ -1,0 +1,1 @@
+alert("Welcome to jewelline shop. Here you can buy any kind of Jewellery at very reasonable price :)");
